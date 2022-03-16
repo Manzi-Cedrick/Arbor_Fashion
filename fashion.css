@@ -1133,7 +1133,7 @@ span.winter{
 .product-shop:hover{
     transform: scale(1.1);
     z-index: 2;
-    border-radius: none;
+    border-radius: 0;
 }
 .logo2{
     height: 60px;
@@ -1527,7 +1527,6 @@ span.winter{
 .role-team{
     display: block;
     color: black;
-    padding: auto;
     padding-top: 10px;
     text-align: center;
     font-weight: bold;
