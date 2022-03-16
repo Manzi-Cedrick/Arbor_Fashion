@@ -392,7 +392,7 @@ nav a:hover{
     color: #FFA200;
     text-align: center;
 }
-#subject1,#subject2,#subject3,#subject4,#subject5,#subject6,#subject7,#subject8,#subject9,#subject10,#subject11,#subject12{
+#subject1,#subject2,#subject3,#subject4,#subject5,#subject6,#subject7,#subject8,#subject9,#subject10,#subject11,#subject12,#subject13,#subject14,#subject15,#subject16{
     font-size: 1.1em;
     font-weight: bold;
     color: black;
@@ -447,6 +447,47 @@ nav a:hover{
 }
 .product12{
     background-image: url(./images/dom-hill-nimElTcTNyY-unsplash.jpg);
+    background-size: cover;
+}
+.product13{
+    background-image: url(./images/joecalih-kFtTXa5ZS1Q-unsplash.jpg);
+    background-size: cover;
+}
+.product14{
+    background-image: url(./images/model.png);
+    background-size: cover;
+}
+.product15{
+    background-image: url(./images/wesley-tingey-3mGnYRUNIck-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+span.summer {
+    position: absolute;
+    top: 295px;
+    left: 50px;
+    color: #FFA200;
+    opacity: 0;
+    animation-name: opacitys;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+span.winter{
+    animation-name: opacityss;
+    opacity: 1;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+@keyframes opacitys{
+0%{opacity: 0;} 
+50%{opacity: 0.5;}
+100%{opacity: 1;}   
+}
+@keyframes opacityss{
+0%{opacity: 1;color: rgba(0, 0, 0, 0.801);}
+100%{opacity: 0;}}
+.product16{
+    background-image: url(./images/young-teen.png);
     background-size: cover;
 }
 .discount{
@@ -1473,6 +1514,7 @@ nav a:hover{
     background-color: white;
     margin: auto;
     margin-top: 30px;
+    box-shadow: 4px 5px 10px 10px rgba(0, 0, 0, 0.148);
 }
 .team-content{
     background-color: aliceblue;
