@@ -173,19 +173,18 @@ nav a:hover{
     background-color: grey;
     border-radius: 50%;
 }
+::-webkit-scrollbar{
+    width: 5px;
+    background-color:white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFA200;
+}
 @media only screen and (max-width:1024px) {
     #hero{
         background-color:palegreen;
         height: 550px;
     }
-    ::-webkit-scrollbar{
-        width: 5px;
-        background-color:white;
-    }
-    ::-webkit-scrollbar-thumb{
-        background-color: #FFA200;
-    }
-    
     nav{
         display: flex;
         justify-content:space-around;
@@ -451,9 +450,13 @@ nav a:hover{
     background-size: cover;
 }
 .product15{
-    background-image: url(./images/wesley-tingey-3mGnYRUNIck-unsplash.jpg);
+    background-image: url(./images/blonia.jpg);
     background-size: cover;
     background-position: center;
+}
+.product16{
+    background-image: url(./images/young-teen.png);
+    background-size: cover;
 }
 span.summer {
     position: absolute;
@@ -479,10 +482,6 @@ span.winter{
 @keyframes opacityss{
 0%{opacity: 1;color: rgba(0, 0, 0, 0.801);}
 100%{opacity: 0;}}
-.product16{
-    background-image: url(./images/young-teen.png);
-    background-size: cover;
-}
 .discount{
     height: 30px;
     width: 60px;
