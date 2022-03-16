@@ -119,13 +119,6 @@ nav a:hover{
     color: #942CC5;
     transition: all ease-in 0.5s;
 }
-::-webkit-scrollbar{
-    width: 5px;
-    background-color:white;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #FFA200;
-}
 .coursels{
     height: 50px;
     width: 150px;
