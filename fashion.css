@@ -1264,7 +1264,7 @@ span.winter{
 }
 .topposts p{
     color: black;
-    font-size: 16px;
+    font-size: 1.1em;
     height: 60px;
     width: 100%;
     font-weight: bold;
@@ -1272,6 +1272,7 @@ span.winter{
     display: block;
     padding: 10px 20px;
     margin-top: 5px;
+    font-family: serif;
 }
 .topposts p:hover{
     background-color: #FFA200;
